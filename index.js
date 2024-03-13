@@ -1,3 +1,7 @@
+var player1name = prompt("Enter the name of player 1 : ");
+var player2name = prompt("Enter the name of player 2 : ");
+document.querySelectorAll("p")[0].innerHTML = player1name;
+document.querySelectorAll("p")[1].innerHTML = player2name;
 var randomnumber1 = Math.floor(6 * Math.random())+1;
 var randomnumber2 = Math.floor(6 * Math.random())+1;
 var  randomdiceimage1 = "./images"+"/dice"+randomnumber1+".png";
